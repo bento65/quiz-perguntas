@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ DE PERGUNTAS</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Perguntas</h1>
+     <h2>Nossos Momentos</h2>
+        <div id="question-container">
+            <img id="photo" src="" alt="Foto" />
+            <p id="question-text"></p>
+            <div id="answers-container"></div>
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Próxima Pergunta</button>
+        <div id="result-container" style="display: none;">
+            <h2>Resultado Final</h2>
+            <p id="result-text"></p>
+            <button onclick="restartQuiz()">Reiniciar Quiz</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
